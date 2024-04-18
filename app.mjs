@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 
 dotenv.config();
 
-// Check and create the uploads directory synchronously
+//check and create the uploads directory synchronously
 const uploadsDir = path.join(__dirname, 'uploads');
 if (!existsSync(uploadsDir)) {
     mkdirSync(uploadsDir, { recursive: true });
@@ -101,12 +101,12 @@ app.post('/upload', upload.single('tosFile'), async (req, res) => {
     const filePath = path.join(uploadsDir, req.file.filename);
     console.log(`Full path for uploaded file: ${filePath}`);
 
-    // Check if file exists before reading
+    //check if file exists before reading
     try {
         if (existsSync(filePath)) {
             const fileData = await fs.readFile(filePath, 'utf8');
             const summaryHtml = await callOpenAIAPI(fileData);
-            await fs.unlink(filePath); // Optionally delete file after processing
+            await fs.unlink(filePath); //delete file after processing
             res.render('summary-display', { summary: summaryHtml });
         } else {
             throw new Error('File does not exist after upload.');

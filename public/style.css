@@ -1,9 +1,9 @@
-/* Custom overrides for Bootstrap defaults */
+
 :root {
-    --bs-primary: #0056b3; /* Custom primary color */
+    --bs-primary: #0056b3; 
 }
 
-/* Enhancements for typography */
+
 body {
     background-color: #f4f4f8;
     color: #333;
@@ -13,13 +13,11 @@ h1, h2, h3, h4 {
     margin-top: 0.5rem;
 }
 
-/* Card styling for summary display */
 .card {
     background-color: #ffffff;
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
 }
 
-/* Custom button styling */
 .btn-primary {
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
@@ -30,7 +28,6 @@ h1, h2, h3, h4 {
     border-color: #003975;
 }
 
-/* Ensure forms and inputs are properly aligned and spaced */
 .form-control, .btn {
     margin-top: 0.5rem;
 }
