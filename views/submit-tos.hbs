@@ -1,0 +1,28 @@
+{{!< main}}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Submit Terms of Service</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Submit Text</h2>
+            <form action="/summarize" method="post">
+                <div class="mb-3">
+                    <label for="tosText" class="form-label">Terms of Service Text</label>
+                    <textarea class="form-control" id="tosText" name="tosText" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Summarize Text</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h2>Upload File</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="tosFile" class="form-label">Upload Terms of Service File</label>
+                    <input class="form-control" type="file" id="tosFile" name="tosFile" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload and Summarize</button>
+            </form>
+        </div>
+    </div>
+</div>
