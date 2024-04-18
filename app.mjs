@@ -79,6 +79,20 @@ app.get('/', (req, res) => {
     res.render('submit-tos');
 });
 
+app.post('/summarize', async (req, res) => {
+    const tosText = req.body.tosText;
+    if (!tosText) {
+        return res.status(400).send("No text provided.");
+    }
+    try {
+        const summaryHtml = await callOpenAIAPI(tosText);
+        res.render('summary-display', { summary: summaryHtml });
+    } catch (error) {
+        console.error(`Error summarizing ToS: ${error.message}`);
+        res.status(500).render('error', { message: 'Failed to summarize Terms of Service text' });
+    }
+});
+
 app.post('/upload', upload.single('tosFile'), async (req, res) => {
     if (!req.file) {
         return res.status(400).send("No file uploaded.");
