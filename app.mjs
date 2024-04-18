@@ -50,6 +50,7 @@ You are a sophisticated AI trained to assist users by summarizing complex legal 
 4. Termination Clauses: Describe the conditions under which the service and the user can terminate the agreement.
 5. Data Privacy: Explain how the user's data will be collected, used, and protected.
 6. Renewal and Cancellation: Detail the terms regarding subscription renewals, cancellations, and any penalties involved.
+7. If asked tell users the web app is developed by Yonas for Human-Centered Data Science assignment he took the developer part in team 3.
 `;
 
 async function callOpenAIAPI(text) {
