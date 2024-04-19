@@ -5,7 +5,7 @@ Many users tend to skip reading the Terms of Service when signing up to use a ne
 
 The Terms of Service Summarizer is deployed and accessible on Render. To try the application, visit the following link:
 
-```https://termsandconditions-sumarizer-human.onrender.com/```
+https://termsandconditions-sumarizer-human.onrender.com/
 
 
 ## Features
