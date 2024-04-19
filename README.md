@@ -3,7 +3,7 @@
 ## Description
 Many users tend to skip reading the Terms of Service when signing up to use a new product or service. This is often because these documents are lengthy and filled with complex legal jargon, making them tedious to go through. However, it's crucial to recognize that agreeing to these terms without reading them can lead to significant legal responsibilities. Users may find themselves legally bound to conditions they were unaware of, which can sometimes include unfavorable clauses such as automatic renewals, cancellation penalties, or unexpected usage limits. The Terms of Service Summarizer is a web application designed to mitigate this risk by providing a concise, understandable summary of the key points, enabling users to acknowledge and comprehend their rights and obligations before agreeing to the terms. Utilizing advanced AI techniques, the application parses complex legal documents and provides a concise summary of the main responsibilities, rights, limitations, termination clauses, data privacy policies, and renewal or cancellation terms.
 
-- The Terms of Service Summarizer is deployed and accessible on Render. To try the application, visit the following link:
+- **The Terms of Service Summarizer is deployed and accessible on Render. To try the application, visit the following link:**
 
 [Visit the Terms of Service Summarizer](https://termsandconditions-sumarizer-human.onrender.com/)
 
