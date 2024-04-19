@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
 Follow these steps to get your development environment set up:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/tos-summarizer.git
+    git clone https://github.com/Yonas650/tos-summarizer.git
     cd tos-summarizer
     ```
 2. Install the required packages:
