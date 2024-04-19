@@ -38,7 +38,7 @@ Follow these steps to get your development environment set up:
     ```
 4. Start the application:
     ```bash
-    npm start
+    node app.mjs
     ```
    This will run the server on http://localhost:3000.
 
