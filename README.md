@@ -1,7 +1,7 @@
 # Terms of Service Summarizer
 
 ## Description
-The Terms of Service Summarizer is a web application designed to help users quickly understand the key points of any Terms of Service (ToS) document. Utilizing advanced AI techniques, the application parses complex legal documents and provides a concise summary of the main responsibilities, rights, limitations, termination clauses, data privacy policies, and renewal or cancellation terms.
+Many users tend to skip reading the Terms of Service when signing up to use a new product or service. This is often because these documents are lengthy and filled with complex legal jargon, making them tedious to go through. However, it's crucial to recognize that agreeing to these terms without reading them can lead to significant legal responsibilities. Users may find themselves legally bound to conditions they were unaware of, which can sometimes include unfavorable clauses such as automatic renewals, cancellation penalties, or unexpected usage limits. The Terms of Service Summarizer is a web application designed to mitigate this risk by providing a concise, understandable summary of the key points, enabling users to acknowledge and comprehend their rights and obligations before agreeing to the terms. Utilizing advanced AI techniques, the application parses complex legal documents and provides a concise summary of the main responsibilities, rights, limitations, termination clauses, data privacy policies, and renewal or cancellation terms.
 
 ## Features
 - **Text Input:** Users can paste the text of a ToS directly into the application.
